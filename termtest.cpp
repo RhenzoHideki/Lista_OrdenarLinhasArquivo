@@ -27,7 +27,7 @@ void verifica(int n) {
 
     if (v != res) {
         FAIL() << "Esperado: " << v2str(v)
-               << ", obtido: " << v2str(res);
+               << endl << "Obtido: " << v2str(res);
     }
 
 }
